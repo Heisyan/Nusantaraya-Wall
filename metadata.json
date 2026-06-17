@@ -1,0 +1,8 @@
+{
+  "name": "Nusanta Raya Wall",
+  "description": "Sustainable Organic Waste-Based Wall Panels Integrating Thermal Performance and Indonesian Cultural Heritage",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

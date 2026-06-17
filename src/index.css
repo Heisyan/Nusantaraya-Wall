@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-coffee: #0E1B2A;
+  --color-beige: #F5F2E9;
+  --color-terracotta: #A64B44;
+  --color-earth-gold: #438C88;
+  --color-dark-coffee: #0E1B2A;
+  --color-sand: #EAE5D5;
+  
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --shadow-warm-sm: 0 4px 12px rgba(14, 27, 42, 0.08);
+  --shadow-warm-md: 0 10px 30px rgba(14, 27, 42, 0.12);
+  --shadow-warm-lg: 0 20px 48px rgba(14, 27, 42, 0.18);
+  
+  --animate-fade-in: fade-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-pulse-slow: pulse-slow 3s infinite ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Elegant Floating Background Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-30px) scale(1.08);
+  }
+}
+
+@keyframes float-reverse {
+  0%, 100% {
+    transform: translateY(0px) scale(1.08);
+  }
+  50% {
+    transform: translateY(35px) scale(0.92);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(60px, -80px) rotate(180deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+@keyframes drift-reverse {
+  0% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+  50% {
+    transform: translate(-70px, 50px) rotate(180deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+/* Animation utilities */
+.animate-float-slow {
+  animation: float 12s infinite ease-in-out;
+}
+
+.animate-float-reverse {
+  animation: float-reverse 15s infinite ease-in-out;
+}
+
+.animate-drift-slow {
+  animation: drift 20s infinite ease-in-out;
+}
+
+.animate-drift-reverse {
+  animation: drift-reverse 24s infinite ease-in-out;
+}
+
+/* Custom organic details */
+.bg-batik-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(67, 140, 136, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(67, 140, 136, 0.05) 1px, transparent 1px);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #0E1B2A;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #438C88;
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #36706C;
+}
