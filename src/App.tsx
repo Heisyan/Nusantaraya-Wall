@@ -84,7 +84,7 @@ export default function App() {
   ];
 
   return (
-    <div className="bg-dark-coffee min-h-screen font-sans selection:bg-terracotta selection:text-beige overflow-x-hidden custom-scrollbar">
+    <div className="bg-dark-coffee min-h-screen font-sans selection:bg-terracotta selection:text-beige custom-scrollbar">
       
       {/* Dynamic Scroll Progress Bar */}
       <motion.div 
@@ -112,7 +112,7 @@ export default function App() {
               </motion.div>
               <div>
                 <span className="font-serif font-bold text-lg text-beige tracking-tight block group-hover:text-earth-gold transition-colors">
-                  NusantaRaya Wall
+                  Nusantaraya Wall
                 </span>
                 <span className="text-[9px] font-mono uppercase tracking-[0.15em] text-earth-gold flex items-center gap-1">
                   <span className="w-1 h-1 rounded-full bg-earth-gold inline-block animate-ping" />
@@ -237,7 +237,7 @@ export default function App() {
 
       {/* Hero Section */}
       <HeroCultural
-        title="Nusanta Raya Wall"
+        title="Nusantaraya Wall"
         subtitle="Sustainable organic waste-based thermal and acoustic wall panels. An award-winning green innovation reclaiming discarded local agricultural coffee husk and coconut residues, and shaping them with living bio-mycelial binders molded into traditional Indonesian cultural motifs."
       />
 
@@ -595,7 +595,7 @@ export default function App() {
               Global Compact Verification
             </span>
             <h2 className="text-2xl md:text-4xl font-serif font-bold text-beige tracking-tight flex items-center justify-center gap-2">
-              Nusanta Raya Wall - SDG Alignment
+              Nusantaraya Wall - SDG Alignment
             </h2>
           </div>
 
@@ -677,7 +677,7 @@ export default function App() {
                   N
                 </div>
                 <h3 className="font-serif font-bold text-base text-beige tracking-tight">
-                  Nusanta Raya Wall
+                  Nusantaraya Wall
                 </h3>
               </div>
               <p className="text-xs text-sand/70 leading-relaxed font-sans font-light">
@@ -710,7 +710,7 @@ export default function App() {
 
           <div className="border-t border-beige/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-[10px] font-mono text-sand/55">
-              &copy; 2026 Nusanta Raya Wall. All rights reserved. Made for 4th International Youth Conference 2026.
+              &copy; 2026 Nusantaraya Wall. All rights reserved. Made for 4th International Youth Conference 2026.
             </p>
             <div className="flex gap-6 text-[10px] font-sans tracking-wide uppercase text-sand/40 font-semibold">
               <a href="#features-benefits" className="hover:text-beige transition-colors">Acoustics</a>

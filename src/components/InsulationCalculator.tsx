@@ -30,7 +30,7 @@ export default function InsulationCalculator() {
     }
   ];
 
-  // Constants derived from Nusanta Raya physical parameters
+  // Constants derived from Nusantaraya physical parameters
   const CO2_SEQUESTRATION_PER_M2 = 4.65; // kg of CO2 stored per panel sq meter
   const ENERGY_SAVING_PERCENT = 35; // % reduction in air conditioning load
   const ESTIMATED_RUPIAH_SAVED_PER_M2_YEAR = 185000; // IDR saved on electricity annually per m2
@@ -82,7 +82,7 @@ export default function InsulationCalculator() {
             Impact Assessment Tool
           </span>
           <h2 className="text-3xl md:text-5xl font-serif font-semibold text-coffee tracking-tight">
-            Nusanta Raya Impact Calculator
+            Nusantaraya Impact Calculator
           </h2>
           <p className="text-coffee/80 max-w-xl mx-auto font-sans font-light leading-relaxed text-sm md:text-base">
             Configure your intended wall surface area or choose a typical space preset to predict ecological benefits and thermal power savings immediately.

@@ -24,7 +24,7 @@ export default function CulturalShowcase({ artworks: customArtworks }: CulturalS
       origin: "Cirebon, West Java",
       description: "Cloud formations representing patience, adaptation, and passive, tranquil cooling energy flow.",
       image: "/motif_1.jpg", // Carved high-relief wooden design
-      historyText: "Traditionally representing rain-bearing thunderclouds, the Megamendung design is embossed on Nusanta Raya panels with a deep curvature to physically diffuse high-frequency sound, achieving superior acoustic damping.",
+      historyText: "Traditionally representing rain-bearing thunderclouds, the Megamendung design is embossed on Nusantaraya panels with a deep curvature to physically diffuse high-frequency sound, achieving superior acoustic damping.",
       insulationValue: "NRC 0.85 / STC 34",
       absorptionRate: "Absorbs 85% of ambient noise"
     },
@@ -116,7 +116,7 @@ export default function CulturalShowcase({ artworks: customArtworks }: CulturalS
           </div>
           <div>
             <p className="font-sans font-light text-coffee/80 leading-relaxed text-sm md:text-base">
-              Each Nusanta Raya Wall panel features exquisite relief patterns of traditional Indonesian Batik, Endek, and Tenun. In addition to aesthetic beauty, these geometries serve as physical acoustic diffusers.
+              Each Nusantaraya Wall panel features exquisite relief patterns of traditional Indonesian Batik, Endek, and Tenun. In addition to aesthetic beauty, these geometries serve as physical acoustic diffusers.
             </p>
           </div>
         </div>

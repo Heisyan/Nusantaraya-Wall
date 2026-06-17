@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     university: "Brawijaya University",
     photoUrl: "/team_1.jpg",
     linkedinUrl: "https://linkedin.com",
-    bio: "Spearheads bio-composite research and structural analysis of Nusanta Raya Wall panels."
+    bio: "Spearheads bio-composite research and structural analysis of Nusantaraya Wall panels."
   },
   {
     name: "Luh Kade Ari Lestari",

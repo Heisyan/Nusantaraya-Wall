@@ -34,7 +34,7 @@ export default function CraftingProcess({ steps }: CraftingProcessProps) {
             The Art of Crafting
           </h2>
           <p className="text-sand/80 max-w-2xl mx-auto font-sans font-light leading-relaxed text-sm md:text-base">
-            Nusanta Raya Wall is engineered through a carbon-negative bio-organic cycle, transforming agricultural residues into high-performance insulation tiles.
+            Nusantaraya Wall is engineered through a carbon-negative bio-organic cycle, transforming agricultural residues into high-performance insulation tiles.
           </p>
         </div>
 
