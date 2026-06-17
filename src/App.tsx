@@ -112,7 +112,7 @@ export default function App() {
               </motion.div>
               <div>
                 <span className="font-serif font-bold text-lg text-beige tracking-tight block group-hover:text-earth-gold transition-colors">
-                  Nusanta Raya Wall
+                  NusantaRaya Wall
                 </span>
                 <span className="text-[9px] font-mono uppercase tracking-[0.15em] text-earth-gold flex items-center gap-1">
                   <span className="w-1 h-1 rounded-full bg-earth-gold inline-block animate-ping" />
