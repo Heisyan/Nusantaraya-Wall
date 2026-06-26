@@ -7,20 +7,20 @@ import MeetTheTeam from "./components/MeetTheTeam";
 import InsulationCalculator from "./components/InsulationCalculator";
 import { processSteps } from "./data/process";
 import { teamMembers } from "./data/team";
-import { 
-  Leaf, 
-  Flame, 
-  Sparkles, 
-  ShieldCheck, 
-  GraduationCap, 
-  Calendar, 
-  Workflow, 
-  FileText, 
-  Menu, 
-  X, 
-  ArrowUpRight, 
+import {
+  Leaf,
+  Flame,
+  Sparkles,
+  ShieldCheck,
+  GraduationCap,
+  Calendar,
+  Workflow,
+  FileText,
+  Menu,
+  X,
+  ArrowUpRight,
   Waves,
-  TrendingUp, 
+  TrendingUp,
   CheckCircle2,
   Lock,
   ChevronRight,
@@ -85,36 +85,29 @@ export default function App() {
 
   return (
     <div className="bg-dark-coffee min-h-screen font-sans selection:bg-terracotta selection:text-beige custom-scrollbar">
-      
+
       {/* Dynamic Scroll Progress Bar */}
-      <motion.div 
+      <motion.div
         className="fixed top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-terracotta via-earth-gold to-beige z-50 origin-left"
         style={{ scaleX }}
       />
 
       {/* 4th International Youth Conference Banner Background Overlay */}
-      <header className={`sticky top-0 z-40 transition-all duration-300 ${
-        showHeaderBorder 
-          ? "bg-dark-coffee/95 backdrop-blur-md border-b border-beige/15 py-1" 
+      <header className={`sticky top-0 z-40 transition-all duration-300 ${showHeaderBorder
+          ? "bg-dark-coffee/95 backdrop-blur-md border-b border-beige/15 py-1"
           : "bg-dark-coffee/80 backdrop-blur-sm border-b border-beige/5 py-3"
-      }`}>
+        }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            
+
             {/* Logo Statement */}
             <div className="flex items-center gap-3 group cursor-pointer">
-              <motion.div 
+              <motion.div
                 whileHover={{ rotate: [0, -10, 10, 0] }}
                 transition={{ duration: 0.5 }}
-<<<<<<< HEAD
                 className="w-11 h-11 rounded-xl bg-beige/5 backdrop-blur-sm border border-beige/10 p-1 flex items-center justify-center shadow-lg"
               >
                 <img src="/logo.png" alt="Nusantaraya Wall Logo" className="w-full h-full object-contain" />
-=======
-                className="w-11 h-11 rounded-xl bg-gradient-to-br from-terracotta to-coffee border border-earth-gold/40 flex items-center justify-center font-serif text-lg font-bold text-beige shadow-lg"
-              >
-                N
->>>>>>> 8956ac9c9200cf89256a7a20055582ca24faaf46
               </motion.div>
               <div>
                 <span className="font-serif font-bold text-lg text-beige tracking-tight block group-hover:text-earth-gold transition-colors">
@@ -156,7 +149,7 @@ export default function App() {
             </nav>
 
             {/* Top Right Conference indicator Badge */}
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.03 }}
               className="hidden lg:flex items-center gap-2 border border-earth-gold/30 px-3.5 py-2 rounded-xl bg-coffee/80 shadow-md"
             >
@@ -254,9 +247,9 @@ export default function App() {
         <div className="absolute bottom-[10%] right-[-5%] w-[350px] h-[350px] bg-earth-gold/20 rounded-full filter blur-[120px] pointer-events-none animate-drift-reverse" />
         <div className="absolute inset-0 opacity-[0.04] bg-batik-grid pointer-events-none" />
         <div className="absolute inset-0 bg-radial-gradient from-dark-coffee/20 to-transparent pointer-events-none" />
-        
+
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-stretch gap-8 justify-between relative z-10">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -274,7 +267,7 @@ export default function App() {
             </blockquote>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -324,7 +317,7 @@ export default function App() {
         </div>
 
         <div className="max-w-6xl mx-auto relative z-10">
-          
+
           <div className="text-center mb-16 space-y-3">
             <span className="font-mono text-xs text-earth-gold uppercase tracking-[0.25em] block">
               Core Technical Merits
@@ -339,9 +332,9 @@ export default function App() {
 
           {/* Grid of Features with stunning custom outlines & scroll staggered animations */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-            
+
             {/* Feature 1 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -361,7 +354,7 @@ export default function App() {
             </motion.div>
 
             {/* Feature 2 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -381,7 +374,7 @@ export default function App() {
             </motion.div>
 
             {/* Feature 3 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -401,7 +394,7 @@ export default function App() {
             </motion.div>
 
             {/* Feature 4 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -421,7 +414,7 @@ export default function App() {
             </motion.div>
 
             {/* Feature 5 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -443,7 +436,7 @@ export default function App() {
           </div>
 
           {/* Quick statement on clear user benefits with scroll visual entries */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.98 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -491,7 +484,7 @@ export default function App() {
       {/* Section 5: Strategic roadmap (point 6 of PDF) */}
       <section id="strategic-roadmap" className="py-24 bg-dark-coffee px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         <div className="absolute top-0 left-12 right-12 h-[1px] bg-gradient-to-r from-transparent via-terracotta/30 to-transparent" />
-        
+
         {/* High-fidelity elegant drifting background orbs */}
         <div className="absolute -left-20 top-1/3 w-96 h-96 rounded-full bg-terracotta/20 filter blur-[110px] pointer-events-none animate-drift-slow" />
         <div className="absolute -right-20 bottom-1/3 w-[450px] h-[450px] rounded-full bg-earth-gold/15 filter blur-[120px] pointer-events-none animate-drift-reverse" />
@@ -532,16 +525,16 @@ export default function App() {
                   <span className="inline-block py-1 px-3 bg-gradient-to-r from-terracotta to-coffee text-beige border border-earth-gold/25 font-mono font-bold text-xs rounded-md shadow-sm">
                     {milestone.year}
                   </span>
-                  
+
                   <h3 className="font-serif font-bold text-base text-beige group-hover:text-earth-gold transition-colors">
                     {milestone.title}
                   </h3>
-                  
+
                   <p className="text-[11px] font-sans text-sand/80 leading-relaxed font-light">
                     {milestone.description}
                   </p>
                 </div>
-                
+
                 <div className="mt-8 flex items-center justify-between text-[10px] font-mono text-terracotta group-hover:text-earth-gold transition-colors pt-2.5 border-t border-beige/10">
                   <span>Phase 0{idx + 1}</span>
                   <ChevronRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
@@ -551,7 +544,7 @@ export default function App() {
           </div>
 
           {/* Regional Compliance & market summary (point 5 of PDF) */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -606,9 +599,9 @@ export default function App() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
+
             {/* SDG 11 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -626,7 +619,7 @@ export default function App() {
             </motion.div>
 
             {/* SDG 12 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -644,7 +637,7 @@ export default function App() {
             </motion.div>
 
             {/* SDG 13 */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -675,17 +668,12 @@ export default function App() {
         <div className="absolute -right-36 -bottom-36 w-72 h-72 rounded-full bg-earth-gold/5 filter blur-3xl pointer-events-none" />
 
         <div className="max-w-6xl mx-auto space-y-12 relative z-10">
-          
+
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
-<<<<<<< HEAD
                 <div className="w-9 h-9 rounded-lg bg-beige/5 border border-beige/10 p-1 flex items-center justify-center shadow-inner">
                   <img src="/logo.png" alt="Nusantaraya Wall Logo" className="w-full h-full object-contain" />
-=======
-                <div className="w-9 h-9 rounded-lg bg-terracotta border border-earth-gold/25 flex items-center justify-center font-serif text-sm font-bold text-beige shadow-inner">
-                  N
->>>>>>> 8956ac9c9200cf89256a7a20055582ca24faaf46
                 </div>
                 <h3 className="font-serif font-bold text-base text-beige tracking-tight">
                   Nusantaraya Wall
@@ -704,7 +692,7 @@ export default function App() {
               <h4 className="font-mono text-[10px] uppercase text-earth-gold tracking-wider flex items-center gap-2 font-semibold">
                 <BookOpen className="w-4 h-4 text-earth-gold" /> Scientific Literature & References:
               </h4>
-              
+
               <ul className="space-y-3 font-sans text-[11px] leading-relaxed text-sand/65 select-none font-light">
                 <li className="pl-4 border-l-2 border-terracotta/30">
                   <strong className="text-sand">Badan Riset dan Inovasi Nasional (BRIN), 2025.</strong> <em>Penelitian dampak sampah plastik Indonesia terhadap polusi laut lintas negara.</em> Sourcing organic wall boards bypasses traditional single-use casing options.
