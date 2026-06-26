@@ -106,9 +106,15 @@ export default function App() {
               <motion.div 
                 whileHover={{ rotate: [0, -10, 10, 0] }}
                 transition={{ duration: 0.5 }}
+<<<<<<< HEAD
                 className="w-11 h-11 rounded-xl bg-beige/5 backdrop-blur-sm border border-beige/10 p-1 flex items-center justify-center shadow-lg"
               >
                 <img src="/logo.png" alt="Nusantaraya Wall Logo" className="w-full h-full object-contain" />
+=======
+                className="w-11 h-11 rounded-xl bg-gradient-to-br from-terracotta to-coffee border border-earth-gold/40 flex items-center justify-center font-serif text-lg font-bold text-beige shadow-lg"
+              >
+                N
+>>>>>>> 8956ac9c9200cf89256a7a20055582ca24faaf46
               </motion.div>
               <div>
                 <span className="font-serif font-bold text-lg text-beige tracking-tight block group-hover:text-earth-gold transition-colors">
@@ -673,8 +679,13 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-3">
+<<<<<<< HEAD
                 <div className="w-9 h-9 rounded-lg bg-beige/5 border border-beige/10 p-1 flex items-center justify-center shadow-inner">
                   <img src="/logo.png" alt="Nusantaraya Wall Logo" className="w-full h-full object-contain" />
+=======
+                <div className="w-9 h-9 rounded-lg bg-terracotta border border-earth-gold/25 flex items-center justify-center font-serif text-sm font-bold text-beige shadow-inner">
+                  N
+>>>>>>> 8956ac9c9200cf89256a7a20055582ca24faaf46
                 </div>
                 <h3 className="font-serif font-bold text-base text-beige tracking-tight">
                   Nusantaraya Wall
